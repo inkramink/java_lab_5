@@ -15,7 +15,6 @@ public class SomeBean {
      */
     public void foo() {
         field1.doSomething();
-        System.out.println(); // Add a newline for separation
         field2.doSomeOther();
     }
 }
