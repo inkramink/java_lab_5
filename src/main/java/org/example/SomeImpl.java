@@ -1,6 +1,12 @@
 package org.example;
 
-class SomeImpl implements SomeInterface {
+/**
+ * Implementation of {@link SomeInterface} that prints "A".
+ */
+public class SomeImpl implements SomeInterface {
+    /**
+     * {@inheritDoc}
+     */
     public void doSomething() {
         System.out.print("A");
     }

@@ -1,5 +1,11 @@
 package org.example;
 
-interface SomeInterface {
+/**
+ * Interface for some functionality.
+ */
+public interface SomeInterface {
+    /**
+     * Performs some action.
+     */
     void doSomething();
 }

@@ -1,6 +1,12 @@
 package org.example;
 
-class SODoer implements SomeOtherInterface {
+/**
+ * Implementation of {@link SomeOtherInterface} that prints "C".
+ */
+public class SODoer implements SomeOtherInterface {
+    /**
+     * {@inheritDoc}
+     */
     public void doSomeOther() {
         System.out.print("C");
     }
